@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const cities_url = "https://weather-4f58b12c60d4.herokuapp.com/data/cities.json";
-const weather_url = "https://weather-4f58b12c60d4.herokuapp.com/data/weather.json";
+const weather_url = "https://weather-4f58b12c60d4.herokuapp.com/data/weaffther.json";
 
 async function getAllCities(){
     let res = await getRequest(cities_url);
