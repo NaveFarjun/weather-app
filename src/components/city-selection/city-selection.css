@@ -1,0 +1,17 @@
+.selection-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}
+
+.selection-container .css-2b097c-container{
+    width: 30%;
+    margin-inline: 3%;
+}
+
+
+.selection-container .label{
+    position: relative;
+    top: 10px;
+}
